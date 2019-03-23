@@ -1,0 +1,18 @@
+package com.corejava.factor;
+import java.util.Scanner;
+public class Factorofano 
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the number");
+		int no=sc.nextInt();
+		for(int i=1;i<=no-1;i++)
+		{
+			if(no%i==0)
+			{
+				System.out.println(i);	
+			}
+		}
+	}
+}
